@@ -19,7 +19,7 @@ function! airline#themes#{s:theme}#refresh()
         let N3 = [ '#EEEEEE', '#262626', 255, 235 ]
 
         " Inactive
-        let IA = [ '#666666', N3[1], 242, N3[3] ]
+        let IA = [ '#A1A1A1', N3[1], 242, N3[3] ]
 
         " Error
         let ER = [ '#1C1C1C', '#D75F5F', 234, 167 ]
@@ -28,9 +28,9 @@ function! airline#themes#{s:theme}#refresh()
         let WI = [ ER[0], '#FFAF5F', ER[2], 215 ]
     else
         " Normal
-        let N1 = [ 'gray30', 'gray70', 235, 249 ]
-        let N2 = [ 'gray20', 'gray60', 233, 246 ]
-        let N3 = [ 'gray20', 'gray80', 233, 251 ]
+        let N1 = [ '#77777', '#e4e8eb', 254, 237 ]
+        let N2 = [ '#77777', '#dadee0', 254, 239 ]
+        let N3 = [ '#77777', '#e4e8eb', 255, 235 ]
 
         " Inactive
         let IA = [ 'gray15', N3[1], 244, N3[3] ]
